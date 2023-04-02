@@ -23,3 +23,8 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
+.main-description {
+  color: grey;
+  font-size: 20px;
+}
