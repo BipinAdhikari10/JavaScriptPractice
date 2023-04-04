@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  position: relative;
+  background-color: #dfff00;
+  color: #ffffff;
+  height: 98vh;
+}
+.main-heading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
