@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #000fff;
+  height: 98vh;
+}
+
+.main-heading {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 20px;
+}
+
+.main-description {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 25px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+.secondary-heading {
+  color: #00ff00;
+  padding: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.players-namelist {
+  color: #800000;
+  text-align: center;
+  list-style: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: calc();
+}
+.player-name {
+  color: #ffff00;
+}
+
+#player-Gulsan {
+  color: #00ffff;
+}
