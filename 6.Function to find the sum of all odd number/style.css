@@ -1,52 +1,91 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
+
 main {
-  background-color: #000fff;
-  height: 98vh;
+  background-color: #960991;
+  height: auto;
 }
+
 .main-heading {
-  font-size: 30px;
-  font-weight: 900;
+  font-size: 40px;
   font-style: italic;
-  letter-spacing: 1px;
-  text-align: center;
+  font-weight: 600;
   text-decoration: underline;
-  text-transform: uppercase;
+  text-align: center;
+  color: #ff0000;
 }
 
 .main-description {
-  color: #00ff00;
   font-size: 25px;
+  color: #ffffff;
   font-style: italic;
-  margin-bottom: 20px;
-  text-transform: capitalize;
+  text-align: justify;
+  padding: 10px;
 }
 
 .secondary-heading {
-  color: #ff00ff;
-  font-size: 40px;
-  font-style: initial;
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
   text-decoration: underline;
+  color: #ffff00;
+  padding: 20px;
 }
 
 .players-namelist {
-  text-align: calc();
-  padding: 30px;
-}
-.player-name {
-  font-size: 20px;
-  margin-bottom: 15px;
+  font-size: 30px;
+  color: #ff0000;
+  text-align: center;
   text-transform: capitalize;
+  font-style: italic;
+  font-weight: 700;
+}
+#player-messi {
+  color: #16f529;
 }
 
-#player-Aarif {
+#player-dybala {
   color: #ffffff;
 }
 
-#player-Gulsan {
-  color: #ffff00;
+#player-martinez {
+  color: #ff00ff;
+}
+
+.tertiary-heading {
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+  text-transform: uppercase;
+}
+.players {
+  padding-left: 30px;
+  list-style: none;
+}
+.player-link {
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.player-link:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: rgb(193, 22, 22);
+}
+.player-images {
+  text-align: center;
+}
+.player-image {
+  border: 2px dashed black;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  width: 30%;
+  margin-bottom: 10px;
 }

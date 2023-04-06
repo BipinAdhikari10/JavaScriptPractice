@@ -1,57 +1,80 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 main {
-  background-color: #000fff;
-  height: 98vh;
+  background-color: #00008b;
+  height: auto;
 }
 
 .main-heading {
-  font-family: sans-serif;
-  font-weight: 600;
   font-size: 40px;
   font-style: italic;
+  font-weight: 600;
   text-decoration: underline;
   text-align: center;
-  text-transform: capitalize;
-  padding: 20px;
+  color: #ff0000;
 }
 
 .main-description {
-  color: #ffffff;
-  font-family: sans-serif;
-  font-style: italic;
   font-size: 25px;
-  letter-spacing: 1px;
+  color: #ffffff;
+  font-style: italic;
   text-align: justify;
+  padding: 10px;
 }
 
 .secondary-heading {
-  color: #00ff00;
-  padding: 20px;
-  text-align: center;
-  text-transform: capitalize;
-  text-decoration: underline;
-  font-family: sans-serif;
-  font-weight: 700;
+  font-size: 30px;
   font-style: italic;
+  text-align: center;
+  text-decoration: underline;
+  color: #ffff00;
+  padding: 20px;
 }
 
 .players-namelist {
-  color: #800000;
+  font-size: 30px;
+  color: #ff0000;
   text-align: center;
-  list-style: none;
-  font-size: 20px;
-  margin-bottom: 10px;
-  text-transform: calc();
-}
-.player-name {
-  color: #ffff00;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 700;
 }
 
-#player-Gulsan {
-  color: #00ffff;
+.tertiary-heading {
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+  text-transform: uppercase;
+}
+.players {
+  padding-left: 30px;
+  list-style: none;
+}
+.player-link {
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.player-link:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+.player-images {
+  text-align: center;
+}
+.player-image {
+  border: 10px dashed black;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  opacity: 50%;
 }
