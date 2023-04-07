@@ -4,22 +4,89 @@
   box-sizing: border-box;
 }
 
-.main {
-  position: relative;
-  background-color: #dfff00;
-  color: #ffffff;
-  height: 98vh;
+body {
+  background-color: #800000;
+  height: auto;
 }
-.main-heading {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
 
+.main-heading {
   font-size: 50px;
   font-family: sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-style: italic;
+  text-align: center;
   text-decoration: underline;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  color: #fff;
+}
+.main-description {
+  color: #fff000;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: justify;
+}
+
+.secondary-heading {
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  text-decoration: dashed;
+  text-transform: capitalize;
+}
+
+.players-namelist {
+  text-align: center;
+  text-decoration: dotted;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  color: #000fff;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
+}
+#player-kusal {
+  color: #fff;
+}
+
+.tertiary-heading {
+  text-decoration: dashed;
+  text-transform: capitalize;
+  text-align: justify;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: serif;
+  color: #800080;
+}
+
+.players {
+  padding-left: 50px;
+  list-style: none;
+}
+
+.player-link {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: justify;
+}
+.player-link:hover {
+  text-decoration: underline;
+  color: #000;
+  background-color: #ffffff;
+}
+.players-image {
+  text-align: center;
+}
+
+.player-image {
+  border: 2px dashed black;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 30%;
+  margin-bottom: 10px;
 }
