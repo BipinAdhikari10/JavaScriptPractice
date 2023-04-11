@@ -1,18 +1,84 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
 }
-body {
-  background-color: #000fff;
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
-h1 {
-  color: black;
-  font-weight: 700;
-  font-style: italic;
-  text-align: center;
+ul {
+  list-style: none;
+}
+
+/* btn {
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 100px;
+}. */
+
+.header {
+  background-color: #fff;
+}
+
+.navigation {
+  background-color: #000fff;
+  padding: 16px 32px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.nav-logo {
+  color: #fff !important;
+  font-size: 30px;
+  float: left;
+  font-weight: 600;
+}
+.nav-lists li {
+  display: inline-block;
+}
+
+.nav-lists {
+  margin-top: 10px;
+  float: right;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  font-weight: 600;
+  margin-left: 40px;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #ddd;
   text-decoration: underline;
-  text-transform: capitalize;
+}
+.hero-section {
+  background-color: #cc3399;
+  height: 500px;
+  overflow: hidden;
+  padding: 50px;
+  color: #000;
+}
+
+.hero-left {
+  float: left;
+  margin: 90px 20px;
+}
+.heading-primary {
+  margin-bottom: 30px;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 700;
+}
+.heading-primary_sub {
+  display: block;
+  color: #fff;
+}
+
+.hero-right {
+  float: right;
 }

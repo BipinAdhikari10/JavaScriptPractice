@@ -37,7 +37,7 @@ ul {
 }
 .nav-lists {
   /* background-color: lightsalmon; */
-  margin-top: 15px;
+  margin-top: 10px;
   float: right;
 }
 .nav-lists li {
@@ -47,7 +47,7 @@ ul {
 .nav-link:visited {
   /* background-color: brown; */
   font-weight: 600;
-  margin-left: 40px;
+  margin-left: 100px;
 }
 .nav-link:hover,
 .nav-link:active {
