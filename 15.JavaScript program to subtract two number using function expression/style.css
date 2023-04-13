@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #000fff;
+  font-weight: 700;
+  font-style: italic;
+  color: #000;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
