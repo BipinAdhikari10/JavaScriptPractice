@@ -22,3 +22,15 @@ const areaOfrect5 = (length, width) => length * width;
 const areaOfrect6 = areaOfrect5;
 const areaOfrect7 = areaOfrect6(20, 50);
 console.log(`The area of rectangle is ${areaOfrect7}`);
+
+// Function to loop the array and find the sum:
+const findSum = (arr) => {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum = sum + arr[i];
+  }
+  return sum;
+};
+
+const sum = findSum([1, 2, 3, 4]);
+console.log(`The sum of the given array is ${sum}`);
