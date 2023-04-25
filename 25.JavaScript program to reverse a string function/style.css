@@ -1,3 +1,15 @@
 body {
-  background-color: blue;
+  background-color: #cc3399;
+}
+
+.hello {
+  text-align: center;
+  text-decoration: underline;
+  color: #fff;
+  text-shadow: #000;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  font-style: italic;
 }
