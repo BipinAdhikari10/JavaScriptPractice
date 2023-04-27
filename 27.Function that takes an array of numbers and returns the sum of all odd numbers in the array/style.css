@@ -1,0 +1,11 @@
+body {
+  background-color: #000;
+}
+.hello {
+  color: #cc3399;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-style: italic;
+  font-family: sans-serif;
+}
