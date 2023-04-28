@@ -1,4 +1,4 @@
-function shortestStringLength(arr) {
+function shortestStringsLength(arr) {
   let shortestLength = Infinity;
   for (let i = 0; i < arr.length; i++) {
     if (arr[i].length < shortestLength) {
@@ -7,6 +7,7 @@ function shortestStringLength(arr) {
   }
   return shortestLength;
 }
-const strings = ["hello", "world", "o", "hi"];
-const result = shortestStringLength(strings);
+
+const strings = ["Bipin", "Namrata"];
+const result = shortestStringsLength(strings);
 console.log(result);
