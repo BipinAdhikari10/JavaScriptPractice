@@ -8,6 +8,6 @@ function shortestStringsLength(arr) {
   return shortestLength;
 }
 
-const strings = ["Bipin", "Namrata"];
+const strings = ["Bipin", "Adhikari"];
 const result = shortestStringsLength(strings);
 console.log(result);
