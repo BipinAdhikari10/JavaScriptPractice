@@ -8,8 +8,5 @@ function isPalindrome(str) {
   return true;
 }
 
-const string = "mum";
+const string = "non";
 console.log(isPalindrome(string));
-
-const string2 = "Bipin";
-console.log(isPalindrome(string2));
