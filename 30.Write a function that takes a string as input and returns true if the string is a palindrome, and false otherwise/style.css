@@ -1,0 +1,11 @@
+body {
+  background-color: #000;
+}
+.bipin {
+  color: #cc3399;
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 36px;
+}
