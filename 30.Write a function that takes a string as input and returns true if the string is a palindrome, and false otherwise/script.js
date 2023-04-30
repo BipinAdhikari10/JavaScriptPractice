@@ -7,8 +7,6 @@ function isPalindrome(str) {
   }
   return true;
 }
-const str1 = "racecar";
-console.log(isPalindrome(str1));
 
-const str2 = "hello";
-console.log(isPalindrome(str2));
+const str = "racecar";
+console.log(isPalindrome(str));
