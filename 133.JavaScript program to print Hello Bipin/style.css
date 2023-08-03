@@ -1,0 +1,12 @@
+body {
+  background-color: blueviolet;
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+  color: #fff;
+}
+.btn1 {
+  background-color: green;
+  border-radius: 100px;
+  color: #fff;
+}
