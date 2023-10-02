@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Sum of Positive Numbers</title>
+    </head>
+    <body>
+      <h1>Sum of Positive Numbers Calculator</h1>
+
+      <form>
+        <label for="numberInput">Enter a number:</label>
+        <input type="number" id="numberInput" placeholder="Enter a number" />
+        <button type="button" onclick="calculateSum()">Add Number</button>
+      </form>
+
+      <p>Positive Numbers: <span id="positiveNumbers">0</span></p>
+
+      <script>
+        // JavaScript function to calculate and update the sum of positive numbers
+        function calculateSum() {
+          const numberInput = document.getElementById("numberInput");
+          const positiveNumbers = document.getElementById("positiveNumbers");
+
+          const number = parseFloat(numberInput.value);
+
+          if (!isNaN(number)) {
+            if (number > 0) {
+              const currentSum = parseFloat(positiveNumbers.textContent);
+              const newSum = currentSum + number;
+              positiveNumbers.textContent = newSum;
+            }
+            numberInput.value = ""; // Clear the input field
+          }
+        }
+      </script>
+    </body>
+  </html>
+
+  <body></body>
+</html>
